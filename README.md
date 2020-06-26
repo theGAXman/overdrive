@@ -110,6 +110,9 @@ It depends on the following executables being available on your `PATH`:
 * `base64`
 * `tidy`
 
+To run in alpine (e.g. for use with Docker), this will install the prerequisites:
+`apk update && apk add bash curl util-linux libxml2-utils openssl tidyhtml`
+
 
 ## Post-processing
 
